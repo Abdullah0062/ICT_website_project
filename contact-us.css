@@ -1,0 +1,162 @@
+
+.header {
+  background-color: #333;
+  color: white;
+  padding: 10px 20px;
+}
+
+  
+  @keyframes gradientBG {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }
+
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+  }
+  
+  .contact-section {
+    background-color: #1a1a1a;
+    color: #fff;
+    padding: 100px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  form-container h2 {
+    color: #3498db;
+  }
+
+
+
+  .info-container h2 {
+    color: #e74c3c;
+  }
+
+
+  .form-container {
+    background-color: #f0f8ff; 
+    padding: 40px;
+    border-radius: 8px;
+    min-width: 300px;
+    color: black;
+  }
+
+  .info-container {
+    background-color: #130f0b; 
+    padding: 40px;
+    border-radius: 8px;
+    min-height: 300px;
+    
+  }
+
+.contact-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    border-radius: 10px;
+    overflow: hidden;
+    gap: 30px; 
+    margin-top: 20px;
+  }
+  .contact-container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 900px;
+    background: #252525;
+    border-radius: 10px;
+    overflow: hidden;
+    
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .form-container,
+  .info-container {
+    flex: 1;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    text-align: left;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  form input,
+  form textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #444;
+    border-radius: 5px;
+    background: #1a1a1a;
+    color: #fff;
+    font-size: 16px;
+  }
+  
+  form textarea {
+    height: 100px;
+    resize: none;
+  }
+  
+  form button {
+    background-color: #f39021;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  form button:hover {
+    background-color: #e07819;
+  }
+  
+  .info-container ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .info-container li {
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 15px;
+  }
+  
+  .info-container li .icon {
+    margin-right: 10px;
+    font-size: 1upx;
+   
+  }
+  
+  .info-container p {
+    margin-bottom: 20px;
+    font-size: 14px;
+    color: #bbb;
+    gap: 10px;
+
+  }
+  #link{
+    color: white;
+    text-decoration: none;
+    font-style: italic;
+  }
+
+
+
+ 

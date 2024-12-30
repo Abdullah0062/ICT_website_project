@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="gallery.css">
+
+    <title>Gallery</title>
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <a href="home.html" class="logo">Abdullah</a>
+            <ul class="nav-links">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about-us.html">About Us</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact-us.html">Contact</a></li>
+                <li><a href="gallery.html" class="active">Gallery</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="slide">
+            <div class="item" style="background-image: url(img1.jpg);"></div>
+            <div class="item" style="background-image: url(img2.jpg);"></div>
+            <div class="item" style="background-image: url(img3.jpg);"></div>
+            <div class="item" style="background-image: url(img4.jpg);"></div>
+            <div class="item" style="background-image: url(img5.jpg);"></div>
+            <div class="item" style="background-image: url(img7.jpg);"></div>
+            <div class="item" style="background-image: url(img8.jpg);"></div>
+            <div class="item" style="background-image: url(img9.jpg);"></div>
+            <div class="item" style="background-image: url(img10.jpg);"></div>
+            <div class="item" style="background-image: url(img11.jpg);"></div>
+            <div class="item"  style="background-image: url(img\ \(10\).jpg);"></div>
+            <div class="item"  style="background-image: url(img\ \(11\).jpg);"></div>
+            <div class="item"  style="background-image: url(img\ \(12\).jpg);"></div>
+            <div class="item"  style="background-image: url(img\ \(13\).jpg);"></div>
+            <div class="item"  style="background-image: url(img\ \(14\).jpg);"></div>
+            <div class="item"  style="background-image: url(img\ \(15\).jpg);"></div>
+            <div class="item"  style="background-image: url(img\ \(16\).jpg);"></div>
+            <div class="item"  style="background-image: url(img\ \(17\).jpg);"></div>
+            <div class="item"  style="background-image: url(img\ \(18\).jpg);"></div>
+            <div class="item"  style="background-image: url(img\ \(1\).jpg);"></div>
+            <div class="item"  style="background-image: url(img\ \(2\).jpg);"></div>
+            <div class="item"  style="background-image: url(img\ \(3\).jpg);"></div>
+            <div class="item"  style="background-image: url(img\ \(4\).jpg);"></div>
+            <div class="item"  style="background-image: url(img\ \(5\).jpg);"></div>
+            <div class="item"  style="background-image: url(img\ \(5\).jpg);"></div>
+            <div class="item"  style="background-image: url(img\ \(6\).jpg);"></div>
+            <div class="item"  style="background-image: url(img\ \(7\).jpg);"></div>
+            <div class="item"  style="background-image: url(img\ \(8\).jpg);"></div>
+            <div class="item"  style="background-image: url(img\ \(9\).jpg);"></div>
+        
+    </div>
+    
+    <footer>
+        <p>&copy; 2024 Muhammad Abdullah | All rights reserved.</p>
+        <div class="footer-content">
+            <ul class="footer-links">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about-us.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact-us.html">Contact</a></li>
+            </ul>
+            
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 800,
+            easing: 'ease-in-out',
+            once: true,
+            offset: 200,
+        });
+        </script>
+
+<script>
+    window.onload = function () {
+      let userInput = prompt("Do You Like the website..?");
+      let userInput1 = prompt("Enter Your Name");
+      if (userInput !== null && userInput1 !== null) {
+        console.log(`Thank you, ${userInput1}, for your response: "${userInput}"`);
+      } else if (userInput === null || userInput1 === null) {
+        console.log("One or both prompts were canceled by the user.");
+      }
+    };
+  </script>
+</body>
+</html>

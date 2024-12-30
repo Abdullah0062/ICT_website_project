@@ -1,0 +1,174 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+
+.main-services {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.intro {
+    margin-bottom: 40px;
+}
+
+.intro h1 {
+    font-size: 36px;
+    color: #333;
+}
+
+.intro p {
+    font-size: 18px;
+    color: #666;
+}
+
+.services-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.service {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.a1{
+background-image: url(8.jpg);
+padding: 10px 50px;
+  object-fit:fill;
+  border-radius: 8px;
+  color: white;
+
+}
+.a2{
+    background-image: url(R.jpeg);
+padding: 10px 50px;
+  object-fit:fill;
+  border-radius: 8px;
+  color: white;
+}
+
+.a3{
+    background-image: url(11.jpg);
+    padding: 10px 50px;
+      object-fit:fill;
+      border-radius: 8px;
+      color: white;
+}
+
+.a4{
+    background-image: url(13.jpg);
+    padding: 10px 50px;
+      object-fit:fill;
+      border-radius: 8px;
+      
+}
+.a4 p{
+    color: white !important;
+}
+.service:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+}
+
+.service h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.service p {
+    font-size: 16px;
+    color: #2c2d30;
+}
+
+.read-more {
+    display: inline-block;
+    margin-top: 10px;
+    color: #ff6600;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.read-more:hover {
+    text-decoration: underline;
+}
+
+.case-studies {
+    padding: 50px 20px;
+    background-color: #fff;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.case-studies h2 {
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.case-studies p {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 40px;
+}
+
+.case-study {
+    margin-bottom: 30px;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.case-study h3 {
+    font-size: 22px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.case-study p {
+    font-size: 16px;
+    color: #666;
+}
+
+.faq {
+    padding: 50px 20px;
+    background-color: #f4f4f9;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.faq h2 {
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.faq-item {
+    margin-bottom: 30px;
+    text-align: left;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.faq-item h3 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.faq-item p {
+    font-size: 16px;
+    color: #666;
+}
